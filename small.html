@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Airbnb</title>
+        <link rel="stylesheet" href="small.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+
+                <a href="#" class="logo">Shop<span>Easy</span></a>
+                <form class="search-container" id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Search for products, brands and more">
+                    <button type="submit" class="search-button">🔎</button>
+                </form>
+                <div class="login-container" id="loginContainer">
+                <button class="login-button" id="loginButton" aria-expanded="false">
+                    <span class="user-icon">👤</span>
+                    <span>Login</span>
+                    <span class="arrow" id="arrow">▲</span>
+                </button>
+                <div class="login-dropdown" id="loginDropdown">
+                    <div class="signup-row">
+                        <span>New Customer?</span>
+                        <a href="#signup">Sign Up</a>
+                    </div>
+                    <a href="#profile"class="dropdown-item">
+                        <span class="item-icon">◎</span>
+                        <span>My Profile</span>
+                    </a>
+                    <a href="#plus" class="dropdown-item">
+                        <span class="item-icon">✦</span>
+                        <span>ShopEasy Plus Zone</span>
+                    </a>
+                    <a href="#orders" class="dropdown-item">
+                        <span class="item-icon">▣</span>
+                        <span>Orders</span>
+                    </a>
+                    <a href="#wishlist" class="dropdown-item">
+                        <span class="item-icon">♡</span>
+                        <span> Wishlist </span>
+                    </a>
+                    <a href="#seller" class="dropdown-item">
+                        <span class="item-icon">▤</span>
+                        <span>Become a Seller</span>
+                    </a>
+                    <a href="#reward" class="dropdown-item">
+                        <span class="item-icon">✪</span>
+                        <span>Rewards</span>
+                    </a>
+                    <a href="#notifications" class="mobile-item">
+                        <span>♧</span>
+                    <span>Notification Preferences</span>
+                    </a>
+                    <a href="#giftcards" class="dropdown-item">
+                        <span class="item-icon">🎁</span>
+                        <span>Gift Cards</span>
+                    </a>
+                    <a href="#customer-care" class="dropdown-item">
+                        <span class="item-icon">♧</span>
+                        <span>24x7 Customer Care</span>
+                    </a>
+
+                    <a href="#advertise" class="dropdown-item">
+                        <span class="item-icon">▥</span>
+                        <span>Advertise</span>
+                    </a>
+                    
+                    <a href="#download" class="dropdown-item">
+                        <span class="item-icon">⇩</span>
+                        <span>Download App</span>
+                    </a>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="small-heading">Welcome to ShopeEasy</p>
+                    <h1>Everything you need, <br> <span>All in one place.</span></h1>
+                    <p class="hero-discription">
+                        Shope mobiles,electronics, fashion, home products
+                        and much more from onr simple shopping website.
+                    </p>
+                    <button class="shop-button" id="shopButton"></button>
+                </div>
+            </section>
+            <section class="categories" id="categories">
+                <h2>
+                    Popular Categories
+                </h2>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <span class="icon">📱</span>
+                    </div>
+                    <h3>Mobiles</h3>
+                    <p>latest smartphones</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <span class="icon">💻</span>
+                    </div>
+                    <h3>Electronics</h3>
+                    <p>Laptops & accessories</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        👕
+                    </div>
+                    <h3>Fashion</h3>
+
+                    <p>
+                    Trendy collections
+                    </p>
+
+                </div>
+
+                <div class="category-card">
+
+                <div class="category-icon">
+                        🏠
+                </div>
+
+                <h3>Home</h3>
+
+                    <p>
+                        Everything for home
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="toast" id="toast" role="status">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
